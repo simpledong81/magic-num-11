@@ -4,6 +4,8 @@ export interface TrainCar {
   colorClass: string; // e.g. 'bg-brand-pink', 'bg-brand-blue'
 }
 
+export type MagicMode = 'multiply-11-simple' | 'multiply-11-carry' | 'multiply-9-magic';
+
 export type SceneId = 'intro' | 'split-magic' | 'addition-slide' | 'shortcut-derivation' | 'challenge-playground';
 
 export interface SceneDefinition {
