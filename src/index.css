@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:wght@300..900&family=JetBrains+Mono:wght@100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Fredoka", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-cream: #FFF9E6;
+  --color-brand-charcoal: #2D3436;
+  --color-brand-gray: #636E72;
+  --color-brand-coral: #FF6B6B;
+  --color-brand-gold: #FFD93D;
+  --color-brand-sky: #4FACFE;
+  --color-brand-peach: #FAB1A0;
+  --color-brand-mint: #6BCB77;
+  
+  --color-brand-yellow: #FFD43F;
+  --color-brand-orange: #FF8F00;
+  --color-brand-pink: #FF4E88;
+  --color-brand-blue: #3E8BFF;
+  --color-brand-purple: #9047FF;
+  --color-brand-green: #4ECA64;
+}
+
+/* Custom whimsical animations & child-friendly classes */
+@layer utilities {
+  .cartoon-border {
+    border: 4px solid #2D3436;
+  }
+  .cartoon-shadow {
+    box-shadow: 6px 6px 0px 0px #2D3436;
+  }
+  .cartoon-shadow-sm {
+    box-shadow: 3px 3px 0px 0px #2D3436;
+  }
+  .cartoon-shadow-lg {
+    box-shadow: 10px 10px 0px 0px #2D3436;
+  }
+  .bg-grid-pattern {
+    background-size: 24px 24px;
+    background-image: 
+      linear-gradient(to right, rgba(45, 52, 54, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(45, 52, 54, 0.04) 1px, transparent 1px);
+  }
+}
+
+/* Base resets to make scrollbars cute */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+

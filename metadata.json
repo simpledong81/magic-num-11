@@ -1,0 +1,6 @@
+{
+  "name": "数字小火车：乘以11的魔法口诀",
+  "description": "专为二年级小朋友设计的互动数学绘本，通过数字火车故事直观理解「两头一拉，中间相加」的11乘法神奇简便算法。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
