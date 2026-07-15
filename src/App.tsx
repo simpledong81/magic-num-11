@@ -302,7 +302,7 @@ export default function App() {
                 {magicMode === 'multiply-9-magic' ? '×9' : '×11'}
               </span> 魔法之旅
             </h1>
-            <p className="text-xs sm:text-sm font-medium text-brand-gray">跟二年级的伙伴们一起探索简便算法的秘密</p>
+            <p className="text-xs sm:text-sm font-medium text-brand-gray">跟小伙伴们一起探索简便算法的秘密</p>
           </div>
         </div>
 
@@ -725,9 +725,9 @@ export default function App() {
         <div className="text-4xl">💡</div>
         <div className="text-xs sm:text-sm font-bold text-brand-gray leading-relaxed text-center sm:text-left">
           {magicMode === 'multiply-11-simple' ? (
-            <span>二年级进阶思考：如果中间相加超过了 10 怎么办？别担心，快点击上方的「进位小精灵」开始学习进位大秘宝吧！</span>
+            <span>进阶思考：如果中间相加超过了 10 怎么办？别担心，快点击上方的「进位小精灵」开始学习进位大秘宝吧！</span>
           ) : magicMode === 'multiply-11-carry' ? (
-            <span>二年级高阶思考：如果是连续需要进位（例如 999 乘 11），你可以自己手写一个输入进去，看进位精灵怎么进行多重魔法飞跃哦！</span>
+            <span>高阶思考：如果是连续需要进位（例如 999 乘 11），你可以自己手写一个输入进去，看进位精灵怎么进行多重魔法飞跃哦！</span>
           ) : (
             <span>思考小奥秘：乘9其实就是把数字放大10倍（挂个0），再把多余的一个自己刨掉，这是一种非常棒的数形结合简便思路哦！</span>
           )}
